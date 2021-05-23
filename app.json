@@ -1,13 +1,14 @@
 {
     "name": "Auto Filter Bot",
-    "description": "Kind of a filter bot where you don't have to add filters manually By Dalin Mathew.",
+    "description": "Auto Filter Bot Made By DalinMathew",
     "logo": "https://telegra.ph/file/ad9cb7fc42ec0e5e6d006.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Telegram Bot",
+        "DalinMathew"
     ],
-    "website": "https://www.youtube.com/c/NaughtyPROFESSOR",
+    "website": "https://TroJanzHEX.me",
     "repository": "https://github.com/DalinMathew/Auto-Filter-Bot-Dalin-2",
     "success_url": "https://t.me/jointhisdiscussion",
     "env": {
