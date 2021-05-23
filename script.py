@@ -6,8 +6,7 @@ class script(object):
 വേറെ ആർക്കും പറ്റില്ല.🤣🤣
 
 
-    HELP_MSG = """
-<a href='https://t.me/MalRok'> Join Our Channel And Group </a>"""
+    HELP_MSG = """ ഇവിടെ ഒന്നുമില്ല. """
 
 
     ABOUT_MSG = """
