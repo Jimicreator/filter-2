@@ -59,7 +59,7 @@ async def filter(client: Bot, message: Message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="⚓ Pages 1/1",callback_data="pages ⚓")]
             )
             await message.reply_text(
                 f"<b> Here is the result for {message.text}</b>",
@@ -74,7 +74,7 @@ async def filter(client: Bot, message: Message):
             [InlineKeyboardButton(text="🌀 GoTo NextPage 🌀",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"⚓ Pages 1/{data['total']}",callback_data="pages" ⚓)]
+            [InlineKeyboardButton(text=f"⚓ Pages 1/{data['total']}",callback_data="pages ⚓")]
         )
 
         await message.reply_text(
@@ -102,7 +102,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"⚓ Pages {int(index)+2}/{data['total']}", callback_data="pages" ⚓)]
+                    [InlineKeyboardButton(f"⚓ Pages {int(index)+2}/{data['total']}", callback_data="pages ⚓")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -116,7 +116,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"⚓ Pages {int(index)+2}/{data['total']}", callback_data="pages") ⚓]
+                    [InlineKeyboardButton(f"⚓ Pages {int(index)+2}/{data['total']}", callback_data="pages ⚓")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -137,7 +137,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"⚓ Pages {int(index)}/{data['total']}", callback_data="pages") ⚓]
+                    [InlineKeyboardButton(f"⚓ Pages {int(index)}/{data['total']}", callback_data="pages ⚓")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -151,7 +151,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"⚓ Pages {int(index)}/{data['total']}", callback_data="pages") ⚓]
+                    [InlineKeyboardButton(f"⚓ Pages {int(index)}/{data['total']}", callback_data="pages ⚓")]
                 )
 
                 await query.edit_message_reply_markup( 
