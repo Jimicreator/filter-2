@@ -5,10 +5,9 @@
     "keywords": [
         "Auto",
         "Filter",
-        "Telegram Bot"
+        "Telegram Bot",
     ],
-    "website": "
-https://www.youtube.com/c/NaughtyPROFESSOR",
+    "website": "https://www.youtube.com/c/NaughtyPROFESSOR",
     "repository": "https://github.com/DalinMathew/Auto-Filter-Bot-Dalin-2",
     "success_url": "https://t.me/jointhisdiscussion",
     "env": {
