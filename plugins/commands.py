@@ -22,7 +22,7 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/jointhisdiscussion")
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/jimibots_grp")
                     ]
                 ]
             ),
@@ -45,7 +45,7 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/null_fallaci")
+                            "⭕️ SUPPORT ⭕️", url="https://t.me/Jimi_Bots")
                     ]
                 ]
             ),
@@ -68,7 +68,7 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/DalinMathew/Auto-Filter-Bot-Dalin-2")
+                            "SOURCE CODE", url="https://t.me//Jimi_Bots")
                     ]
                 ]
             ),
