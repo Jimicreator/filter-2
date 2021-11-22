@@ -1,9 +1,7 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {} ☺️☺️
-ഞാൻ <a href:"@jointhisdiscussion">Malayalam Rockers</a> ഗ്രൂപ്പിൽ ഉപയോഗിക്കാൻ വേണ്ടി നിർമ്മിച്ച ബോട്ട് ആണ്.
-വേറെ ആർക്കും പറ്റില്ല.🤣🤣
+    START_MSG = """ <b>Hi {} Welcome ☺️☺️ <a href:"@jimibots_grp">jimibots_grp</a>.
 
 """
 
@@ -47,12 +45,12 @@ No need add each filter again!
 Bot will automatically search for your files and give links to that!
 
 
-<b>© @TroJanzHEX</b>"""
+<b>© @Jimi_Bots</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot V2</b>
+    ABOUT_MSG = """⭕️<b>My Name : A Bot</b>
     
-⭕️<b>Creater :</b> @null_fallaci
+⭕️<b>Creater :</b> @JimiBots
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
